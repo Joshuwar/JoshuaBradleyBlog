@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$('body').addClass('webkit');
 	}
 	
-	$('.indexNav').localScroll();
+	$.localScroll();
 	
 	
 	
