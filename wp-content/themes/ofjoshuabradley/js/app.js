@@ -4,4 +4,10 @@ $(document).ready(function(){
 	if ($.browser.webkit) {
 		$('body').addClass('webkit');
 	}
+	
+	$('.indexNav').localScroll();
+	
+	
+	
+	
 });

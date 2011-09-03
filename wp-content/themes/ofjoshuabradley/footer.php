@@ -50,6 +50,8 @@
 		window.baseURL = "<?php bloginfo('url'); ?>";
 		window.wpURL = "<?php bloginfo('wpurl'); ?>";
 	</script>
+	<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/jquery.localscroll-1.2.7-min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/js/app.js"></script>
 	<!--[if (gte IE 6)&(lte IE 8)]>
 		<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/selectivizr-min.js"></script>
