@@ -145,7 +145,8 @@ blockquote {
 
 strong {
 	font-family: 'LinuxLibertineOBold';
-	font-style: normal;		
+	font-style: normal;
+	font-weight: normal;		
 }
 
 em {
