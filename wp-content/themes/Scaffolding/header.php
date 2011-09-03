@@ -49,6 +49,6 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<a id="top"></a>
+		<a name="top"></a>
 		<div id="wrapper">
 				
