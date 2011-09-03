@@ -138,6 +138,23 @@ body {
 ------------------------------------------------------------------------------ Generic Typography
 */
 
+blockquote {
+	font-family: 'LinuxLibertineOItalic';
+	font-style: normal;
+}
+
+strong {
+	font-family: 'LinuxLibertineOBold';
+	font-style: normal;		
+}
+
+em {
+	font-family: 'LinuxLibertineOItalic';
+	font-style: normal;		
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'QuicksandBook';
 	text-transform: uppercase;
@@ -190,7 +207,6 @@ h1 {
 #footer .fixed {
 	margin-bottom: 24px;
 	color: white;
-	font-weight: bold;
 }
 
 #footer .fixed a:link, #footer .fixed a:visited {
@@ -245,7 +261,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, li a:hov
 	font-family: 'QuicksandBold';
 	letter-spacing: 0.1em;
 	font-size: 14px;
-	font-weight: bold;
 	text-transform: uppercase;
 	color: #b5b5b5;
 }
@@ -277,7 +292,6 @@ ul.noBullets li {
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	font-family: 'QuicksandBold';
-	font-weight: bold;
 }
 
 
@@ -428,7 +442,6 @@ ul#nav li {
 	font-family: 'QuicksandBold';
 	color: #b5b5b5;
 	letter-spacing: 0.02em;
-	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 	font-size: 14px;
@@ -480,7 +493,6 @@ ul.sections li, ul.sections {
 }
 
 span.sections, ul.sections, .contents h1.fixed {
-	font-weight: bold;
 	font-size: 14px;
 	color: #cbcbcb;
 }
@@ -563,9 +575,9 @@ li.entry:last-child {
 }
 
 li.entry span {
+	font-family: 'LinuxLibertineOBold';
 	text-transform: capitalize;
 	font-size: 18px;
-	font-weight: bold;
 	letter-spacing: 0.08em;
 	display: block;
 	width: 160px;
@@ -583,7 +595,6 @@ li.reference {
 
 li.reference h4 a {
 	color: #bcbcbc;
-	font-weight: ;
 	font-size: 15px;
 	line-height: 18px;
 }
