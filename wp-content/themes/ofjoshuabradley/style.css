@@ -193,7 +193,6 @@ h1.fixed, h2.fixed, h3.fixed, h4.fixed, h5.fixed, h6.fixed {
 
 .fixed a:link, .fixed a:visited, a.fixed:link, a.fixed:visited {
 	font-family: 'QuicksandBoldOblique';
-	font-style: italic;
 	text-decoration: none;
 }
 
