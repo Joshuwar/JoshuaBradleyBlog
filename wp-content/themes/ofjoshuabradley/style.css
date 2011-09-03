@@ -609,13 +609,19 @@ li.reference h4 a:hover {
 
 ul.indexNav {
 	position: absolute;
-	top: -40px;
+	top: -54px;
 	font-size: 30px;
 	font-family: "QuicksandBook";
-
+	background-color: #fbfbfb;
+	padding: 18px 0 12px;
 	width: 940px;
 	text-align: center;
 }
+
+.grid ul.indexNav {
+	background: transparent;
+}
+
 ul.indexNav li {
 	display: inline;
 	padding: 0px 8px;
