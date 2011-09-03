@@ -54,6 +54,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<a name="top" id="top"></a>
 	<div><a class="trigger" href="javascript:func()">Grid</a></div>
 	<div id="wrap" class="png_bg">
 		<div class="jbasewrap">
