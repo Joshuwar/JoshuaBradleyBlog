@@ -44,6 +44,8 @@
 			
 			<ul class="letters">
 			<?php 
+			$prev_letter = '';
+			$prev_row = '';
 			$i = 0;
 			$tags = get_tags();
 			$letters = array();

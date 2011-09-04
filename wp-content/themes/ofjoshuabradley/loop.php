@@ -2,11 +2,12 @@
 			if ( have_posts() ) : while ( have_posts() ) : the_post();
 			$slug = basename(get_permalink());
 		 ?>
-		<div id="<?php // the_title(); To do: make this echo the slug?>" class="jbasewrap post <?php echo $slug; ?>">
+		<div id="<?php // the_title(); To do: make this echo the slug?>" class="jbasewrap post pull1 <?php echo $slug; ?>">
 			<div class="leftcol textalignright">
 				
 				<h1><?php the_title(); ?></h1>
 				
+				<?php if( !is_page()) { ?> 
 				<div class="meta push1">
 					<p>Posted in <?php
 					$cat = get_the_category();
@@ -27,6 +28,7 @@
 					<?php } ?>
 				
 				</div>
+				<?php } ?>
 	
 			</div>
 			<div class="rightcol push3">

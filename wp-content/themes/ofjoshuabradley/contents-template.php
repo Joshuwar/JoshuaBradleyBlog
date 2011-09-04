@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php 
+
+// Template Name: Contents Template
+
+get_header(); ?>
 		<div class="jbasewrap contents">
 			
 			<!--<?php /* Pagination System
@@ -18,28 +22,17 @@
 			<?php } */
 			?>-->
 			
-			<h1 class="fixed"><?php if(is_search()) {
-			?>Searching for: <?php
-				echo get_search_query();
- 			} else if ( is_category() ) { 
-	 			 ?>
-	 			This is the  
- 			<?php single_cat_title(); ?> Section . <a href="<?php bloginfo( 'url' );  ?>/contents">View Contents Ordered by date</a><?php
- 			} else {
-			?>Contents Ordered by Date
-			<?php } ?>
-			</h1>
+			<h1 class="fixed">Contents Ordered by Date</h1>
 			<span class="sections">View Section: </span>
 			<ul class="noBullets sections">
 				<?php wp_list_categories('hierarchical=false&title_li='); ?>
 			</ul>
 			<?php // single_cat_title();
-			 ?>
-			<?php 
+			$query = new WP_query('posts_per_page=-1');
 			
-			if ( have_posts() ) : ?>
+			if ( $query->have_posts() ) : ?>
 			<ul class="contentlist noBullets">
-			<?php while ( have_posts() ) : the_post();
+			<?php while ( $query->have_posts() ) : $query->the_post();
 				$title = get_the_title();
 			?>
 				<li class="grid12col left">

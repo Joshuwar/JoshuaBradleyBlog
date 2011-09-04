@@ -508,6 +508,7 @@ ul.sections li:last-child:after {
 
 span.sections a, ul.sections a, .contents h1.fixed a{
 	color: #cbcbcb;
+	font-family: "QuicksandBook";
 }
 
 span.sections a:hover, ul.sections a:hover, .contents h1.fixed a:hover {
